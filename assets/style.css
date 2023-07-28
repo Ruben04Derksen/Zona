@@ -1,0 +1,21 @@
+/* use google fonts to implement a cool font */
+
+body {
+    background-color: lightgray;
+}
+
+header {
+    border-color: lightblue;
+    border-style: solid;
+    background-color: lightblue;
+    text-align: center;
+    margin: 20px 200px;
+    border-radius: 25px;
+}
+
+.searcharea {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
