@@ -1,4 +1,6 @@
-url = 'https://moviesdatabase.p.rapidapi.com/titles/random?list=most_pop_movies';
+var url = 'https://moviesdatabase.p.rapidapi.com/titles/random?list=most_pop_movies';
+// var titleMovie = '';
+
 var settings = {
 	async: true,
 	crossDomain: true,
@@ -24,5 +26,7 @@ function chooseRandom() {
   var index = Math.floor(Math.random()*9);
     response = fetch(url, settings)
     .then(response => response.json())
-    .then(data => console.log(data.results[index].originalTitleText))
+    .then(data => console.log(data.results[index].originalTitleText)
+	)	
 }
+
