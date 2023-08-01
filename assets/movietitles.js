@@ -17,3 +17,12 @@ try {
 } catch (error) {
 	console.error(error);
 }
+const button= document.querySelector('button');
+button.addEventListener('click', chooseRandom);
+
+function chooseRandom() {
+  var index = Math.floor(Math.random()*9);
+    response = fetch(url, settings)
+    .then(response => response.json())
+    .then(data => console.log(data.results[index].originalTitleText))
+}
