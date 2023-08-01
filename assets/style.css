@@ -15,6 +15,10 @@ header {
     
 }
 
+h1 {
+
+}
+
 .titlebtn{
     display: flex;
     justify-content: center;
@@ -22,7 +26,8 @@ header {
     margin-bottom: 300px;
 }
 
-.countryavail {
+/* changed class name */
+.streaming {
     border-color: lightblue;
     border-style: solid;
     background-color: lightblue;
@@ -35,4 +40,10 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
+    
 } 
+
+/* added class to extend search bar to show all text inside */
+.inputsearch {
+    width: 200px;
+}
