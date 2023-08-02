@@ -1,10 +1,3 @@
-/* use google fonts to implement a cool font */
-/* need to add button for search, look up how to add magnifying glass icon */
-
-body {
-    background-color: lightgray;
-}
-
 header {
     border-color: lightblue;
     border-style: solid;
@@ -12,17 +5,26 @@ header {
     text-align: center;
     margin: 20px 200px;
     border-radius: 25px;
-    
+
+}
+/* added google font */
+p {
+    font-family: Montserrat;
 }
 
-.titlebtn{
+h1 {
+    font-family: Montserrat;
+}
+
+.titlebtn {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-bottom: 300px;
 }
 
-.countryavail {
+/* changed class name */
+.cocktail {
     border-color: lightblue;
     border-style: solid;
     background-color: lightblue;
@@ -31,8 +33,30 @@ header {
     border-radius: 25px;
 }
 
- .searcharea {
+/* added button for cocktail*/
+.drinkbtn {
     display: flex;
     justify-content: center;
     align-items: center;
-} 
+    margin-bottom: 300px;
+}
+
+.titlesearch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.drinksearch {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.searchbar {
+    position: relative;
+    padding: 15px;
+    border-radius: 25px;
+    display: flex;
+}
+

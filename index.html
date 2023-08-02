@@ -5,7 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./assets/style.css">
-    <title>Movie Title Generator</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<!--added google fonts link-->
+<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet">
+    <title>Movie Title and Cocktail Generator</title>
 </head>
 
 <header>
@@ -17,41 +21,55 @@
     </p>
 </header>
 
-
-
 <body>
-
-
-
 
     <div class="titlebtn">
         <button>
             Click Here
         </button>
+
+        <!--added textbox for javascript api input-->
+        <div class="titlesearch">
+            <div class="searchbar">
+                <div class="searchbtn">
+                    <input type="text" class="inputsearch" placeholder=" ">
+                </div>
+            </div>
+        </div>
     </div>
 
-    <div class="countryavail">
-        <h2>
-            Streming Service Availibilty by Country
-        </h2>
+    <!--changed class name-->
+    <div class="cocktail">
+        <!--changed wording of text-->
+        <h1>
+            Cocktail Randomizer
+        </h1>
 
         <p>
-            Search for Streaming Service Below
+            Click the button below to find a new drink
         </p>
     </div>
+    <!--added button for cocktail-->
+    <div class="drinkbtn">
+        <button>
+            Click Here
+        </button>
 
-    <div class="searcharea">
-        <div class="searchbox">
-            <div class="searchbtn"></div>
-            <input type="text" class="inputsearch" placeholder="search for streaming service...">
+        <!--added textbox for javascript api input-->
+        <div class="drinksearch">
+            <div class="searchbar">
+                <div class="searchbtn">
+                    <input type="text" class="inputsearch" placeholder=" ">
+                </div>
+            </div>
         </div>
     </div>
 
 
 </body>
 
-<script src="./assets/script.js"></script>
+<script src="./assets/movietitles.js"></script>
 
-<script src="./assets/script1.js"></script>
+<script src="./assets/streaming.js"></script>
 
 </html>
