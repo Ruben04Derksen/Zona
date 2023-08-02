@@ -19,12 +19,20 @@ try {
 } catch (error) {
 	console.error(error);
 }
-const button= document.querySelector('button');
-button.addEventListener('click', chooseRandom);
+const button = document.querySelector('button');
+button.addEventListener('click', chooseRandomMovie);
 
-function chooseRandom() {
+function chooseRandomMovie() {
   var index = Math.floor(Math.random()*9);
     response = fetch(url, settings)
     .then(response => response.json())
-
+    .then((data) => {
+		console.log(data.results[index].originalTitleText)
+		document.querySelector("#movieTitle").innerHTML = `
+		<h2 class='movieTitle'>${data.results[index].originalTitleText.text}</h2>
+		<img src='${data.results[index].primaryImage.url}' class='posterSize'></img>
+		`
+	}
+	)	
 }
+
