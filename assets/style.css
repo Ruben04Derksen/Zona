@@ -41,13 +41,13 @@ h1 {
     margin-bottom: 300px;
 }
 
-.titlesearch {
+/* .titlesearch {
     display: flex;
     justify-content: center;
     align-items: center;
-}
+} */
 
-.drinksearch {
+/* .drinksearch {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,5 +58,8 @@ h1 {
     padding: 15px;
     border-radius: 25px;
     display: flex;
-}
+} */
 
+.posterSize {
+   height: 100px;
+}
