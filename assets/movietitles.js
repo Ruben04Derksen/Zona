@@ -26,7 +26,5 @@ function chooseRandom() {
   var index = Math.floor(Math.random()*9);
     response = fetch(url, settings)
     .then(response => response.json())
-    .then(data => console.log(data.results[index].originalTitleText)
-	)	
-}
+
 
