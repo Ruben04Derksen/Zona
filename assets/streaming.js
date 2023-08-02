@@ -22,8 +22,17 @@ function chooseRandomCocktail() {
   var index = Math.floor(Math.random()*99);
     response = fetch(url1, options)
     .then(response => response.json())
-	.then(data => console.log(data[index].title))
+	.then((data) => {
+		console.log(data[index].title)
+		document.querySelector('#drinkName').innerHTML = `
+		<h2 class='drinkName'>${data[index].title}</h2>
+		<img src='${data[index].image}' class='drinkPic'></img>
+		`
+	}
+	)
 }
+
+
 
 
 
