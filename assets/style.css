@@ -27,7 +27,7 @@ h1 {
 }
 
 /* changed class name */
-.streaming {
+.cocktail {
     border-color: lightblue;
     border-style: solid;
     background-color: lightblue;
@@ -36,14 +36,12 @@ h1 {
     border-radius: 25px;
 }
 
- .searcharea {
+/* added button for cocktail*/
+ .drinkbtn{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-} 
-
-/* added class to extend search bar to show all text inside */
-.inputsearch {
-    width: 200px;
+    margin-bottom: 300px;
 }
+
+
