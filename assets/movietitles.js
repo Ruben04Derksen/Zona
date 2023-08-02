@@ -27,4 +27,4 @@ function chooseRandom() {
     response = fetch(url, settings)
     .then(response => response.json())
 
-
+}
