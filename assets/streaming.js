@@ -15,6 +15,16 @@ try {
 } catch (error) {
 	console.error(error);
 }
+const button1 = document.querySelector('button');
+button1.addEventListener('click', chooseRandomCocktail);
+
+function chooseRandomCocktail() {
+  var index = Math.floor(Math.random()*99);
+    response = fetch(url1, options)
+    .then(response => response.json())
+	.then(data => console.log(data[index].title))
+}
+
 
 
 
