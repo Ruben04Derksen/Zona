@@ -26,7 +26,7 @@ function chooseRandomCocktail() {
 	.then((data) => {
 		console.log(data[index].title)
 		document.querySelector('#drinkName').innerHTML = `
-		<h2 class='drinkName'>${data[index].title}</h2>
+		<h2 class='movieTitle'>${data[index].title}</h2>
 		<img src='${data[index].image}' class='posterSize'></img>
 		`
 	}
