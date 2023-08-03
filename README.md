@@ -10,10 +10,10 @@ If your README is long, add a table of contents to make it easy for users to fin
 ## Installation
 First, clone the code from the repository linked, https://github.com/Ruben04Derksen/Zona , then use the git clone command in your terminal with your respective code editor.  Finally open the HTML file in your browser and enjoy the application.  
 ## Usage
-Provide instructions and examples for use. Include screenshots as needed.
-To add a screenshot, create an `assets/images` folder in your repository and upload your screenshot to it. Then, using the relative file path, add it to your README using the following syntax:
-![alt text](assets/images/screenshot.png)
-To use the applicaiton simply click on one of the two buttons.  Each button generates a random response respictful to it's button.  
+To use the applicaiton simply click on the button that says 'Click Here'.
+![](assets/images/Screen%20Shot%202023-08-03%20at%203.11.03%20PM.png)
+Then a movie title and a cocktail are generated at random with images to go along with them. 
+![](assets/images/Screen%20Shot%202023-08-03%20at%203.11.19%20PM.png)
 ## Credits
 Tiffany Reed; https://github.com/tiffanyreed
 Carlos DLT https://github.com/crlsedlt42
