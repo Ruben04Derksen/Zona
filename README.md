@@ -22,3 +22,12 @@ Our application is simple to use and instructions can be found in our website. T
 - Tiffany Reed; https://github.com/tiffanyreed
 - Carlos DLT https://github.com/crlsedlt42
 - Ruben Derksen https://github.com/Ruben04Derksen
+
+## Links
+GitHub: 
+* Repository: https://github.com/Ruben04Derksen/Zona
+* Deployed Website: https://ruben04derksen.github.io/Zona/
+
+Rapid API
+* https://rapidapi.com/SAdrian/api/moviesdatabase/
+* https://rapidapi.com/rapihub-rapihub-default/api/the-cocktail-db3

@@ -35,6 +35,10 @@ function chooseRandomCocktail() {
 	)
 }
 
+// console.log(chooseRandomCocktail);
+// localStorage.setItem('Cocktail Name', chooseRandomCocktail);
+
+
 
 
 

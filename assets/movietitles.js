@@ -38,4 +38,6 @@ function chooseRandomMovie() {
 		)
 }
 
+// console.log(chooseRandomMovie);
+// localStorage.setItem('Movie Title', chooseRandomMovie);
 
