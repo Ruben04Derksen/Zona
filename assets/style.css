@@ -3,10 +3,11 @@ header {
     border-style: solid;
     background-color: lightblue;
     text-align: center;
-    margin: 20px 200px;
+    margin: 20px 100px;
     border-radius: 25px;
 
 }
+
 /* added google font */
 p {
     font-family: Montserrat;
@@ -17,9 +18,9 @@ h1 {
 }
 
 .titlebtn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: inline-block;
+    position: relative;
+    left: 895px;
     margin-bottom: 300px;
 }
 
@@ -29,8 +30,19 @@ h1 {
     border-style: solid;
     background-color: lightblue;
     text-align: center;
-    margin: 20px 200px;
+    margin: 20px 100px;
     border-radius: 25px;
+}
+
+.posterSize {
+    height: 600px;
+    display: flex;
+    justify-content: first baseline;
+    align-items: center;
+}
+
+.movieTitle {
+    font-family: Montserrat;
 }
 
 /* added button for cocktail*/
@@ -59,7 +71,3 @@ h1 {
     border-radius: 25px;
     display: flex;
 } */
-
-.posterSize {
-   height: 100px;
-}
