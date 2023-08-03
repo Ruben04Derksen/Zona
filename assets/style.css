@@ -17,9 +17,9 @@ h1 {
 }
 
 .titlebtn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    display: inline-block;
+    position: relative;
+    left: 895px;
     margin-bottom: 300px;
 }
 
@@ -32,6 +32,13 @@ h1 {
     margin: 20px 200px;
     border-radius: 25px;
 }
+
+.posterSize {
+    height: 600px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
 
 /* added button for cocktail*/
 .drinkbtn {
@@ -60,6 +67,3 @@ h1 {
     display: flex;
 } */
 
-.posterSize {
-   height: 100px;
-}
