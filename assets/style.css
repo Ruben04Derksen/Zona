@@ -3,10 +3,11 @@ header {
     border-style: solid;
     background-color: lightblue;
     text-align: center;
-    margin: 20px 200px;
+    margin: 20px 100px;
     border-radius: 25px;
 
 }
+
 /* added google font */
 p {
     font-family: Montserrat;
@@ -29,16 +30,20 @@ h1 {
     border-style: solid;
     background-color: lightblue;
     text-align: center;
-    margin: 20px 200px;
+    margin: 20px 100px;
     border-radius: 25px;
 }
 
 .posterSize {
     height: 600px;
     display: flex;
-    justify-content: center;
+    justify-content: first baseline;
     align-items: center;
- }
+}
+
+.movieTitle {
+    font-family: Montserrat;
+}
 
 /* added button for cocktail*/
 .drinkbtn {
@@ -66,4 +71,3 @@ h1 {
     border-radius: 25px;
     display: flex;
 } */
-
