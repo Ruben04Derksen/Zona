@@ -8,7 +8,6 @@ header {
 
 }
 
-/* added google font */
 p {
     font-family: Montserrat;
 }
@@ -17,42 +16,32 @@ h1 {
     font-family: Montserrat;
 }
 
-.titlebtn {
+h2 {
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-bottom: 300px;
 }
 
-/* changed class name */
-.cocktail {
-    border-color: lightblue;
-    border-style: solid;
-    background-color: lightblue;
-    text-align: center;
-    margin: 20px 100px;
-    border-radius: 25px;
+.alignment {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
+
+.alignment>* {
+    padding: 10px;
+    flex: 1 100%;
+}
+
+.banana {
+    font-family: Montserrat;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
 
 .posterSize {
     height: 600px;
     display: flex;
-    justify-content: first baseline;
-    align-items: center;
 }
-
-.movieTitle {
-    font-family: Montserrat;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-/* added button for cocktail*/
-.drinkbtn {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 300px;
-}
-
