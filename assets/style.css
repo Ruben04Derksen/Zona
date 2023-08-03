@@ -18,9 +18,9 @@ h1 {
 }
 
 .titlebtn {
-    display: inline-block;
-    position: relative;
-    left: 895px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     margin-bottom: 300px;
 }
 
@@ -43,6 +43,9 @@ h1 {
 
 .movieTitle {
     font-family: Montserrat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 /* added button for cocktail*/
@@ -53,21 +56,3 @@ h1 {
     margin-bottom: 300px;
 }
 
-/* .titlesearch {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-} */
-
-/* .drinksearch {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-.searchbar {
-    position: relative;
-    padding: 15px;
-    border-radius: 25px;
-    display: flex;
-} */
