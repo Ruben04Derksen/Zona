@@ -1,5 +1,5 @@
 var url = 'https://moviesdatabase.p.rapidapi.com/titles/random?list=most_pop_movies';
-// var titleMovie = '';
+
 
 var settings = {
 	async: true,
@@ -13,8 +13,8 @@ var settings = {
 
 try {
 	response = fetch(url, settings)
-    .then(response => response.json())
-    .then(data => console.log(data))
+		.then(response => response.json())
+		.then(data => console.log(data))
 
 } catch (error) {
 	console.error(error);
@@ -23,16 +23,21 @@ const button = document.querySelector('button');
 button.addEventListener('click', chooseRandomMovie);
 
 function chooseRandomMovie() {
-  var index = Math.floor(Math.random()*9);
-    response = fetch(url, settings)
-    .then(response => response.json())
-    .then((data) => {
-		console.log(data.results[index].originalTitleText)
-		document.querySelector("#movieTitle").innerHTML = `
+	var index = Math.floor(Math.random() * 9);
+	response = fetch(url, settings)
+		.then(response => response.json())
+		.then((data) => {
+			console.log(data.results[index].originalTitleText)
+			var appStorageMovie = data.results[index].originalTitleText
+			document.querySelector("#movieTitle").innerHTML = `
 		<h2 class='movieTitle'>${data.results[index].originalTitleText.text}</h2>
 		<img src='${data.results[index].primaryImage.url}' class='posterSize'></img>
 		`
-	}
-	)	
+			localStorage.setItem('Movie Title', JSON.stringify({ appStorageMovie }));
+		}
+		)
 }
+
+// console.log(chooseRandomMovie);
+// localStorage.setItem('Movie Title', chooseRandomMovie);
 

@@ -25,13 +25,19 @@ function chooseRandomCocktail() {
 	// Added Image to be viewed in HTML
 	.then((data) => {
 		console.log(data[index].title)
+		var appStorageDrink = data[index].title
 		document.querySelector('#drinkName').innerHTML = `
 		<h2 class='movieTitle'>${data[index].title}</h2>
 		<img src='${data[index].image}' class='posterSize'></img>
 		`
+		localStorage.setItem('Cocktail Name', appStorageDrink);
 	}
 	)
 }
+
+// console.log(chooseRandomCocktail);
+// localStorage.setItem('Cocktail Name', chooseRandomCocktail);
+
 
 
 
